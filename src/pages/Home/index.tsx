@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { useLoadingContext } from 'react-router-loading'
 import './app.css'
 
-const Love = styled.div`
+const HeaderStyle = styled.div`
   color: red;
   font-size: 48px;
   text-align: center;
@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Love>Love is Love, You are So cute</Love>
+        <HeaderStyle>Jasen Blog</HeaderStyle>
         <p>{formatMessage({ id: 'home' })}</p>
       </header>
     </div>

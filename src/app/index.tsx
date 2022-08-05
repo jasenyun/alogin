@@ -13,6 +13,6 @@ export const App = () => {
     <IntlProvider locale={language} messages={messages}>
       <Header />
       <Routes />
-    </IntlProvider>
+    </IntlProvider >
   )
 }

@@ -10,11 +10,16 @@ topbar.config({
 })
 
 const Home = lazy(() => import('../pages/Home'))
+const OAuth = lazy(() => import('../pages/OAuth'))
+const Blog = lazy(() => import('../pages/Blogs'))
 
 export const Routes = () => {
   return (
     <ReactRoutes>
       <Route path="/" element={<Home />} loading />
+      <Route path="/home" element={<Home />} loading />
+      <Route path="/blog" element={<Blog />} loading />
+      <Route path="/oauth" element={<OAuth />} loading />
     </ReactRoutes>
   )
 }

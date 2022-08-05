@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/82.e2314524.chunk.js","mappings":"sHAOA,UANA,WACE,OAAO,0BACL","sources":["pages/OAuth/index.tsx"],"sourcesContent":["\nfunction App() {\n  return <div>\n    <div>认证页面</div>\n  </div>\n}\n\nexport default App;"],"names":[],"sourceRoot":""}
